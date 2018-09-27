@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'Swift' do |cs|
     cs.source_files = 'Sources/Swift/**/*.swift'
   end
-  spec.default_subspecs = 'Swift'
+  spec.default_subspecs = 'ObjC'
   spec.framework        = 'CoreGraphics', 'Foundation', 'UIKit'
   spec.requires_arc     = true
   spec.ios.deployment_target = '9.0'
